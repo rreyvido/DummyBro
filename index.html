@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Beomho IT</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/icon-company.png" rel="icon">
+  <link href="assets/img/icon-company.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="./assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="./assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container header-width d-flex align-items-center">
+
+      <div class="logo me-auto">
+        <h1><a href="index.html"><img class="bh-logo" src="./assets/img/company-logo-white.png" alt=""></a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto" href="./static/service.html">서비스</a></li>
+          <li class="dropdown"><a href="#"><span>제품</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="./static/product.html">제품&nbsp;01</a></li>
+              <li><a href="./static/product02.html">제품&nbsp;02</a></li>
+              <li><a href="./static/product03.html">제품&nbsp;03</a></li>
+            </ul>
+          </li>
+          <!-- <li><a class="nav-link scrollto" href="./static/customer.html">고객사례</a></li> -->
+          <li><a class="nav-link scrollto " href="./static/developer.html">개발자</a></li>
+          <li class="dropdown"><a href="#"><span>회사정보</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="./static/about-us.html">회사소개</a></li>
+              <li><a href="./static/company-history.html">회사연혁</a></li>
+              <li><a href="./static/question.html">문 의</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="./static/careers.html">인재채용</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar --> 
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="slider-images">
+      <img src="./assets/img/heros-bg.png" alt="Gambar 1" />
+      <img src="./assets/img/image-09.jpg" alt="">
+      <img src="./assets/img/image08.png" alt="">
+      <img src="./assets/img/infra-monitoring-img.png" alt="">
+      <img src="./assets/img/image06.jpg" alt="">
+    </div>
+    <div class="dots">
+      <a class="prev" onclick="userSlide('prev')">&#10094;</a>
+      <span class="dot active" onclick="userSlide(1)">1</span>
+      <span class="dot" onclick="userSlide(2)">2</span>
+      <span class="dot" onclick="userSlide(3)">3</span>
+      <span class="dot" onclick="userSlide(4)">4</span>
+      <span class="dot" onclick="userSlide(5)">5</span>
+      <a class="next" onclick="userSlide('next')">&#10095;</a>
+    </div>
+    <div class="container text-slider text-center text-md-left max-content text-banner active" data-aos="fade-up">
+      <div class="heros">
+        <p>GS인증 획득<br>시설물 안전통합관리</p>
+      </div>
+      <a href="#about" class="btn-get-started scrollto btn-active">자세히 보기</a>
+    </div>
+    <div class="container text-slider text-center text-md-left max-content text-banner" data-aos="fade-up">
+      <div class="heros">
+        <p>우리는 경험이 많고<br>신뢰할 수 있는 사람들입니다</p>
+      </div>
+      <a href="#about" class="btn-get-started scrollto btn-active">자세히 보기</a>
+    </div>
+    <div class="container text-slider text-center text-md-left max-content text-banner" data-aos="fade-up">
+      <div class="heros">
+        <p>비즈니스 IT 요구에 <br>맞는 최고의 솔루션 제공</p>
+      </div>
+      <a href="#about" class="btn-get-started scrollto btn-active">자세히 보기</a>
+    </div>
+    <div class="container text-slider text-center text-md-left max-content text-banner" data-aos="fade-up">
+      <div class="heros">
+        <p>우리 회사의 최고의<br>기술 솔루션입니다</p>
+      </div>
+      <a href="#about" class="btn-get-started scrollto btn-active">자세히 보기</a>
+    </div>
+    <div class="container text-slider text-center text-md-left max-content text-banner" data-aos="fade-up">
+      <div class="heros">
+        <p>우리 회사를 당신의<br>사업 파트너로 만들어라</p>
+      </div>
+      <a href="#about" class="btn-get-started scrollto btn-active">자세히 보기</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+        <div class="row-title">
+          <span>서비스와 제품</span>
+        </div>
+        <div class="row">
+
+          <div class="box-service">
+            <div class="serv-content">
+              <img class="bg-image" src="./assets/img/icon-consultan.png" alt="">
+              <span>Consultant</span>
+            </div>
+            <div class="box-overlay">
+              <div class="detail-text-box">
+                <div class="text-box">
+                  <span>Consultant</span>
+                  <p>다양한 IT 전문 컨설팅 서비스를 제공합니다.</p>
+                </div>
+                <div class="btn-detail">
+                  <span>바로 가기</span>
+                  <div class="btn-icon-detail">></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="box-service bg-color">
+            <div class="serv-content">
+              <img class="bg-image" src="./assets/img/development.png" alt="">
+              <span class="text-color">Development</span>
+            </div>
+            <div class="box-overlay">
+              <div class="detail-text-box">
+                <div class="text-box">
+                  <span>Development</span>
+                  <p>모바일 애플리케이션, 서버, 웹 애플리케이션 및 플랫폼을 제공합니다.</p>
+                </div>
+                <div class="btn-detail">
+                  <span>바로 가기</span>
+                  <div class="btn-icon-detail">></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="box-service">
+            <div class="serv-content space-text">
+              <img class="bg-image position-img" src="./assets/img/system.png" alt="">
+              <span>System <br>
+                Integration</span>
+            </div>
+            <div class="box-overlay">
+              <div class="detail-text-box">
+                <div class="text-box">
+                  <span>System Integration</span>
+                  <p>고객의 컴퓨팅 및 비즈니스 환경에 적합한 기술 솔루션을 제공합니다.</p>
+                </div>
+                <div class="btn-detail">
+                  <span>바로 가기</span>
+                  <div class="btn-icon-detail">></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="box-service">
+            <div class="serv-content">
+              <img class="bg-image" src="./assets/img/design.png" alt="">
+              <span>Design</span>
+            </div>
+            <div class="box-overlay">
+              <div class="detail-text-box">
+                <div class="text-box">
+                  <span>Design</span>
+                  <p>고객의 아이디어를 창의적인 디자인으로 제공합니다.</p>
+                </div>
+                <div class="btn-detail">
+                  <span>바로 가기</span>
+                  <div class="btn-icon-detail">></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+                    
+          <div class="box-service">
+            <div class="serv-content space">
+              <img class="bg-images" src="./assets/img/trafic-img.png" alt="">
+              <span><br>스마트<br>교통
+                관제 시스템</span>
+            </div>
+          </div>
+
+          <div class="box-service">
+            <div class="serv-content space">
+              <img class="bg-images" src="./assets/img/facility-img.png" alt="">
+              <span><br>시설물<br>통합관제시스템</span>
+            </div>
+          </div>
+
+          <div class="box-service box-bg">
+            <div class="serv-content">
+              <img class="bg-image" src="./assets/img/iot-icon.png" alt="">
+              <span class="text-color">SAFE DATA v1.0 </span>
+            </div>
+            <div class="box-overlay">
+              <div class="detail-text-box">
+                <div class="text-box">
+                  <span>IoT Monitoring</span>
+                  <p>실시간으로 센싱 데이터를 수집 및 분석하는 노후 위험 시설물 안전관리 IoT플랫폼입니다</p>
+                </div>
+                <div class="btn-detail">
+                  <span>바로 가기</span>
+                  <div class="btn-icon-detail">></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="box-service bg-color">
+            <div class="serv-content">
+              <img class="bg-image" src="./assets/img/icon-company.png" alt="">
+              <!-- <span>Consultant</span> -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+     </section>
+     <!-- End Services Section -->
+
+    <!-- ======= Organization Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container-org">
+        <div class="org-profile">
+          <div class="filter">
+            <div class="label-content top-position" id="link-portfolio">
+              <span>함께 성장하고 있는 범호아이티</span>
+              <div class="button btn-active">채용안내 보기</div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- ======= Busines Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+        <div class="row-title">
+          <span>비즈니스</span>
+        </div>
+        <div class="content-busines">
+          <div class="cont-row-busines">
+            <span>회사소개</span>
+            <p>범호아이티는 <br>
+              회사소개를 아주간단하게 <br> 
+              적어주세요.</p>
+            <div class="detail-conten" id="link-about-us">
+              <a>바로가기 </a>
+              <div class="but-detail btn-active">
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="cont-row-busines" id="link-developer">
+            <span>개발자</span>
+            <p>범호아이티는<br>
+              인도네시아 개발자들과 <br> 
+              함께 성장합니다.</p>
+            <div class="detail-conten">
+              <a>바로가기 </a>
+              <div class="but-detail btn-active">
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="cont-row-busines" id="link-careers">
+            <span>인재채용</span>
+            <p>각분야의전문가들이모여 <br>
+              함께성장해나갈 <br> 
+              당신을기다립니다. </p>
+            <div class="detail-conten">
+              <a>바로가기 </a>
+              <div class="but-detail btn-active">
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Content Section ======= -->
+    <section id="banner" class="team">
+     
+      
+    </section>
+    <!-- End Team Section -->
+
+    <!-- ======= Logo Clien Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="logo-clien">
+        <div class="logo-icon">
+          <img src="./assets/img/clien-logo/our_clients_logo-01.png" alt="">
+          <img src="./assets/img/clien-logo/our_clients_logo-02.png" alt="">
+          <img src="./assets/img/clien-logo/our_clients_logo-03.png" alt="">
+          <img src="./assets/img/clien-logo/our_clients_logo-04.png" alt="">
+          <img src="./assets/img/clien-logo/our_clients_logo-06.png" alt="">
+          <img src="./assets/img/clien-logo/our_clients_logo-07.png" alt="">
+          <img src="./assets/img/clien-logo/our_clients_logo-08.png" alt="">
+          <img src="./assets/img/clien-logo/our_clients_logo-09.png" alt="">
+          <img src="./assets/img/clien-logo/our_clients_logo-10.png" alt="">
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container header-width">
+      <div class="content-footer">
+        <span>Copyright © 2021 BeomhoIT.All rights reserved.</span>
+        <div class="button-footer btn-active">
+          <span>관련사이트</span>
+          <span>+</span>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script type="module" src="assets/js/main.js"></script>
+
+</body>
+
+</html>
