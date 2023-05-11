@@ -1,0 +1,115 @@
+.cat-recrutment span {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+.con-busines span {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+.dot-list li:before {
+    content: "• ";
+    color: #000;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 1.5;
+    width: 1em;
+    margin-left: -1em;
+}
+.dot-list li {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 148.69%;
+    letter-spacing: -0.015em;
+    color: #3D3D3D;
+}
+  .con-busines{
+    padding: 0 0 30px 0;
+  }
+.group-list {
+    padding: 0 0 100px 0;
+}
+.team {
+    margin: 100px 0px 0px !important;
+}
+
+.category-job {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: absolute;
+    top: 195px;
+    left: 56%
+}
+.detail-category {
+    width: 439px;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 18.7px;
+  }
+  
+  th {
+    border-bottom: 2px solid #ddd;
+  }
+  
+  td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table tr td {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.015em;
+    color: #595959;
+  }
+  table tr .font-weight {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: -0.015em;
+    color: #3D3D3D;
+  }
+.section_contents iframe {
+    height: 301px;
+}
+.btn-send-gmail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 438px;
+    height: 55px;
+    background: #3D3D3D;
+    border: 1px solid #3D3D3D;
+    border-radius: 30px;
+}
+.btn-send-gmail span {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn-send-gmail:hover {
+    background-color: #6C6C6C;
+    cursor: pointer;
+}

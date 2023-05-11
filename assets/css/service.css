@@ -1,0 +1,158 @@
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.header-width {
+    max-width: 80% !important;
+  }
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 65px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4f5a62;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+#header {
+    border-bottom: 1px solid #D3D3D3 !important; 
+    box-shadow: none !important;
+}
+.service {
+    padding: 100px 0 136px 0;
+}
+.service-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    padding: 70px 0 0 0;
+}
+.service-content  span {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.11em;
+    color: #5692F6;
+}
+.service-content p {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #3D3D3D;
+}
+.box-color {
+    background: #F6F6F6;
+}
+.box-color span {
+    color: rgba(61, 61, 61, 0.9);
+}
+/*--------------------------------------------------------------
+# introduction
+--------------------------------------------------------------*/
+.con-group {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+}
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 29px;
+}
+.introduction span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+    letter-spacing: -0.015em;
+    color: #000000;
+
+}
+.introduction p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 148.69%;
+    letter-spacing: -0.015em;
+    color: #3D3D3D;
+}
+.portfolio {
+    padding: 234px 0 0 0 !important;
+}
+.team {
+    margin: 154px 0px 0px !important;
+}
+.position-center img {
+    width: 894px;
+}
+.position-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.position-center img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+@media screen and (max-width: 768px) {
+    .position-center {
+      max-width: 600px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .position-center {
+      max-width: 320px;
+    }
+    .service-content {
+        padding: 70px 30px 0 30px;
+    }
+    .service-content p {
+        font-size: 30px;
+    }
+    .service {
+        padding: 0px 0 50px 0;
+    }
+    .introduction {
+        padding: 30px;
+    }
+    .introduction p  {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .introduction span {
+        text-align: center;
+    }
+    .portfolio {
+        padding: 20px 0 0 0 !important;
+    }
+    .con-group {
+        gap: 0;
+    }
+    .team {
+        margin: 25px 0px 0px !important;
+    }
+  }
+
+  .service-button-active {
+    background: #0041AD;
+  }
+  

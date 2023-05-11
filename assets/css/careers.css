@@ -1,0 +1,121 @@
+.header-width {
+  max-width: 80% !important;
+}
+.section-bg {
+  padding: 0;
+}
+.max-content {
+    max-width: 80% !important;
+}
+.service {
+    padding: 136px 0 69px 0;
+}
+.introduction span {
+    font-size: 30px;
+}
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 65px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4f5a62;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+.service-content {
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+}
+.service-content span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: inherit;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+.service-content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: inherit;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+.banner {
+  margin: 0 auto;
+  overflow: hidden;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .banner {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .banner {
+    max-width: 320px;
+  }
+}
+/* .banner {
+    background: url(../img/image-organization.png);
+    background-size: cover;
+    height: 866px;
+    background-repeat: no-repeat;
+} */
+.portfolio {
+    padding: 153px 0 0 0 !important;
+}
+
+/* Table */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  border-bottom: 2px solid #ddd;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+}
+  th, td {
+    text-align: left;
+    padding: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    color: #3D3D3D;
+  }
+table tr .text-color {
+  color: #C1C1C1;
+}
+.team {
+    margin: 250px 0px 0px !important;
+}
+#mytable tr:hover {
+  background: rgba(217, 217, 217, 0.19);
+  cursor: pointer;
+}

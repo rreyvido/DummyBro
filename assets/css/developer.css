@@ -1,0 +1,140 @@
+.header-width {
+    max-width: 80% !important;
+  }
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 65px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4f5a62;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+.container-img {
+    position: relative;
+    width: 100%;
+  }
+.title-image {
+    margin: 0 auto;
+    overflow: hidden;
+}
+.title-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+    .title-image {
+      max-width: 600px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .title-image {
+      max-width: 320px;
+    }
+  }
+
+.banner-text span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
+
+.banner-text {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 80%;
+}
+
+/*--------------------------------------------------------------
+# Development
+--------------------------------------------------------------*/
+.con-group {
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+}
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.introduction span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+    letter-spacing: -0.015em;
+    color: #000000;
+
+}
+.introduction p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: -0.015em;
+    color: #3D3D3D;
+}
+.introduction p a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: -0.015em;
+    color: #595959;
+
+}
+.portfolio {
+    padding: 96px 0 0 0 !important;
+}
+.team {
+    margin: 154px 0px 32px 0!important;
+}
+
+.banner {
+    background: url(../img/group-img.png);
+    background-size: cover;
+}
+.text-label span {
+    color: #FFFFFF !important;
+}
+
+@media (max-width: 480px) {
+    .banner-text span {
+        font-size: 15px;
+        line-height: 1;
+    }
+    .banner-text {
+        top: 18%;
+    }
+    .portfolio {
+        padding: 30px 0 0 0 !important;
+    }
+    .introduction p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .introduction span {
+        text-align: center;
+        line-height: 1.5;
+    }
+}

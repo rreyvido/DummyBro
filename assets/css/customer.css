@@ -1,0 +1,140 @@
+.header-width {
+  max-width: 80% !important;
+}
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 65px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4f5a62;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+.container-customer {
+    display: flex;
+    flex-direction: column;
+    gap: 97px;
+}
+.service-content a {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #3D3D3D;
+}
+#header {
+    border-bottom: 1px solid #D3D3D3 !important; 
+    box-shadow: none !important;
+}
+.service {
+    padding: 100px 0 136px 0;
+}
+.service-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    padding: 70px 0 0 0;
+}
+.service-content  span {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.11em;
+    color: #5692F6;
+}
+.service-content p {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #3D3D3D;
+}
+.org-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+.org-image img {
+    /* width: 564.28px; */
+    height: 335px;;
+}
+
+.customer-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.customer-detail span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.015em;
+    color: #D9D9D9;
+}
+.customer-detail p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #3D3D3D;
+}
+.team {
+    margin: 239px 0px 0px !important;
+}
+
+
+.pagination {
+    margin: 105px 0 0 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .pagination a {
+    display: inline-block;
+    padding: 6px 10px;
+    margin: 2px;
+    background-color: #f5f5f5;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  .pagination a.next {
+    margin-left: 10px;
+  }
+  
+  .pagination a:first-child {
+    margin-left: 0;
+  }
+  
+  .pagination a:last-child {
+    margin-right: 0;
+  }
+  
+  .pagination .next-width {
+    width: 70px;
+    height: 36px;
+  }
+  

@@ -1,0 +1,44 @@
+.group-content {
+    display: flex;
+    flex-direction: row;
+    gap: 127px;
+}
+.year span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+.service {
+    padding: 100px 0 40px 0;
+}
+.detail-panel table span {
+    vertical-align: top;
+    display: inline-block;
+    width: 12%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+.con-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.detail-panel table label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+hr {
+    padding: 10px 0;
+}
+
+@media (max-width: 480px) {
+  
+}
